@@ -1,0 +1,21 @@
+## Requirements:
+NodeJS/NPM: https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi
+Postman: https://dl.pstmn.io/download/latest/win64
+
+## Installation Steps (on CMD on linux):
+> mkdir TOTP-APP && cd TOTP-APP
+> npm init -y
+> npm install express body-parser speakeasy --save
+
+
+## Code
+Paste the app.js file in the TOTP-APP folder.
+
+## Running
+> node app.js
+> listening on :3000
+
+
+## Output
+The server has started on localhost:3000.
+We can use Postman to check the responses.
